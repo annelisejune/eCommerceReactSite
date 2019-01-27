@@ -1,0 +1,88 @@
+.about-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 125px;
+
+  .about-page-header {
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 2.3rem;
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: -85px;
+    color: $lightblue;
+    text-shadow: 4px 5px 0px $grey;
+    z-index: 1;
+  }
+
+  .about-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: $pink;
+    border: 1px solid $pink;
+    padding: 105px 95px 75px 95px;
+    box-shadow: 50px 50px 0px 3px $lightblue;
+    z-index: 0;
+
+    .about-image {
+      img {
+        height: 600px;
+      }
+    }
+
+    .content {
+      font-size: 1.3rem;
+      margin-left: 55px;
+
+      h3 {
+        font-family: 'Major Mono Display', sans-serif;
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 55px;
+      }
+
+      h2 {
+        font-family: 'Major Mono Display', sans-serif;
+        font-size: 2.1rem;
+        text-align: right;
+        margin-bottom: 55px;
+        margin-top: 75px;
+      }
+    }
+  }
+  
+  .feature-box {
+    font-size: 1.3rem;
+    height: 400px;
+    margin-top: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $lightblue;
+    padding: 0px 225px 75px 225px;
+    box-shadow: -25px 25px 0px 3px rgba(255,199,193,1);
+
+    .feature-box-header {
+      align-self: flex-end;
+      h3 {
+        font-family: 'Major Mono Display', sans-serif;
+        font-size: 4.3rem;
+        text-shadow: 4px 5px 0px $grey;
+      }
+    }
+
+    .features {
+      margin-left: -175px;
+      display: flex;
+      justify-content: center;
+
+      .feature {
+        text-align: center;
+        width: 200px;
+      }
+    }
+  }
+}

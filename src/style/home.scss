@@ -1,0 +1,83 @@
+.app-container {
+  padding: none;
+  margin: none;
+  border: none;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.container {
+  padding: none;
+  margin: none;
+  border: none;
+  width: 100%;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 125px;
+
+  .page-header {
+    font-family: 'Major Mono Display', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: $lightblue;
+    text-shadow: 4px 5px 0px $pink;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    padding-bottom: 7px;
+  }
+
+  .company-pic-and-sample-products {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .company-pic {
+      margin-right: 17px;
+
+      img {
+        height: 294px;
+        border: 1px solid transparent;
+        border-radius: 100%;
+      }
+    }
+
+    .sample-products {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: $pink;
+      border: 1px solid $pink;
+      padding: 105px 135px 35px 135px;
+      box-shadow: 50px 50px 0px 3px $lightblue;
+
+      button {
+        margin-top: 60px;
+        font-size: 1.1rem;
+        padding: 15px;
+        align-self: flex-end;
+        color: white;
+        background-color: $lightblue; 
+        border: none;
+
+        &:active {
+          background-color: white; 
+          border: none;
+          text-decoration: none;
+          box-shadow: 10px 10px 73px -10px rgba(36,36,36,1);
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
