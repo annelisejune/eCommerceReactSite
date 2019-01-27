@@ -18,6 +18,7 @@
   .contact-form{
     height: 350px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -27,6 +28,18 @@
     box-shadow: 50px 50px 0px 3px $lightblue;
     border: 20px solid white;
     z-index: 0;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: -55px;
+    margin-bottom: 47px;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   input {
@@ -69,17 +82,19 @@
   .right-side {
     height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 15px;
 
     .form-input {
+      height: 175px;
       input {
-        height: 175px;
         text-align: left;
       }
       .inputs {
         ::placeholder {
+          align-self: flex-start;
           color: white;
           font-family: 'Major Mono Display', sans-serif;
           font-size: 1.7rem;    
@@ -96,8 +111,25 @@
     }
   }
 
+  button {
+    margin-top: 60px;
+    font-size: 1.1rem;
+    padding: 15px;
+    padding-bottom: 25px;
+    align-self: flex-end;
+    color: white;
+    background-color: $lightblue; 
+    border: none;
 
+    &:active {
+      background-color: white; 
+      border: none;
+      text-decoration: none;
+      box-shadow: 10px 10px 73px -10px rgba(36,36,36,1);
+    }
 
-
-
+    &:focus {
+      outline: none;
+    }
+  }
 }

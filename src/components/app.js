@@ -11,7 +11,6 @@ import Home from "./pages/home.js";
 import Store from "./pages/store.js";
 import About from "./pages/about.js";
 import Contact from "./pages/contact.js";
-import Blog from "./pages/blog.js";
 
 
 export default class App extends Component {
@@ -27,7 +26,6 @@ export default class App extends Component {
               <Route path="/store" component={Store} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
-              <Route path="/blog" component={Blog} />
             </Switch>
           </div>
         </Router> 

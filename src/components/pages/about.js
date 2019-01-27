@@ -14,10 +14,9 @@ export default function() {
 
         <div className="content">
           <h3>we Are ecommeRce</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam illum nemo fugiat.</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum esse corrupti ratione!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officia debitis enim exercitationem maiores laborum quaerat vel inventore perferendis temporibus quidem corrupti sapiente cumque obcaecati, consectetur dolorum. Voluptate corporis illo, quae dolore maxime aperiam qui.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <p>Red hair crookshanks bludger Marauder’s Map Prongs sunshine daisies butter mellow Ludo Bagman.</p> 
+          <p>Beaters gobbledegook N.E.W.T., Honeydukes eriseD inferi ‘zis is a chance many would die for!</p>
+          <p>Turn to page 394 It takes a great deal of bravery to stand up to our enemies but just as much to stand up to our friends Always Now Im going to bed before either of you comes up with another clever idea to get us killed Or worse expelled How very irritating After all this time 10 points to Gryffindor</p>
           <h2>XoXo</h2>
         </div>
       </div>
@@ -29,19 +28,19 @@ export default function() {
 
         <div className="features">
           <div className="feature">
-            <p>feature</p>
+            <p>Honeydukes</p>
           </div>
           
           <div className="feature">
-            <p>feature</p>
+            <p>Honeydukes</p>
           </div>
 
           <div className="feature">
-            <p>feature</p>
+            <p>Honeydukes</p>
           </div>
 
           <div className="feature">
-            <p>feature</p>
+            <p>Honeydukes</p>
           </div>
         </div>
       </div>

@@ -30,10 +30,6 @@ export default class Navigation extends Component {
             <div className="nav-link-wrapper">
               <NavLink activeClassName="nav-link-active" to="/contact">CONTACT</NavLink>
             </div>
-
-            <div className="nav-link-wrapper">
-              <NavLink activeClassName="nav-link-active" to="/blog">BLOG</NavLink>
-            </div>
           </div>
         </div>
 

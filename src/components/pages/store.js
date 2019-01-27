@@ -9,47 +9,47 @@ export default function() {
 
       <div className="store-products">
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>Firebolt</h1>
           <button to="/">PURCHASE</button>
         </div>
         
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>Mischief Managed</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>Hagrid</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>Fluffy</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>9 ¾</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>dress robes</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>rock-cake</h1>
           <button to="/">PURCHASE</button>
         </div>
 
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>must not</h1>
           <button to="/">PURCHASE</button>
         </div>
         
         <div className="store-sample-products">
-          <h1>product box</h1>
+          <h1>tell lies</h1>
           <button to="/">PURCHASE</button>
         </div>
       </div>
