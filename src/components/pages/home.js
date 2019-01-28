@@ -4,7 +4,7 @@ export default function() {
   return (
     <div className="page-content">
       <div className="page-header">
-        <h1>tHis is A stoRe</h1>
+        <h1>tHis is ecommeRce</h1>
       </div>
 
       <div className="company-pic-and-sample-products">

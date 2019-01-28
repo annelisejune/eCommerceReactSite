@@ -7,6 +7,11 @@ export default function() {
         <h1>tHis is the stoRe</h1>
       </div>
 
+      <div className="viewCart">
+      <h3>VieW cARt</h3>
+      <i class="fas fa-shopping-cart"></i>
+      </div>
+
       <div className="store-products">
         <div className="store-sample-products">
           <h1>Firebolt</h1>

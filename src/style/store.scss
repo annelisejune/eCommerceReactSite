@@ -7,6 +7,35 @@
   text-shadow: 4px 5px 0px $pink;
   margin-top: 35px;
   padding-bottom: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 113px;
+  position: sticky;
+  top: 0px;
+}
+
+.viewCart {
+  align-self: flex-end;
+  font-family: 'Major Mono Display', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  background-color: $pink;
+  text-shadow: 4px 5px 0px $lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  margin-top: -32px;
+  margin-right: 27px;
+  position: sticky;
+  top: 89px;
+  border: 10px solid white;
+
+  i {
+    margin-left: 15px;
+  }
 }
 
 .store-products {

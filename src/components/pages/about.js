@@ -9,7 +9,7 @@ export default function() {
 
       <div className="about-box">
         <div className="about-image">
-          <img src="/assets/dog.jpg" className="dog-image"></img>
+          <img src="/assets/aboutus.jpg" className="dog-image"></img>
         </div>
 
         <div className="content">
