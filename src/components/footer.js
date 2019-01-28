@@ -13,22 +13,6 @@ export default class Footer extends Component {
           <img src="/assets/logo.png"></img>
         </div>
 
-        <div className="right-side">
-          <div className="right-nav-links">
-            <div className="nav-icons">
-              <i class="fab fa-facebook-f"></i>
-            </div>
-
-            <div className="nav-icons">
-              <i class="fab fa-instagram"></i>
-            </div>
-
-            <div className="nav-icons">
-              <i class="fab fa-twitter"></i>
-            </div>
-          </div>
-        </div>
-
         <div className="left-side">
           <div className='nav-wrapper'>
             <div className="nav-link-wrapper">
@@ -39,16 +23,28 @@ export default class Footer extends Component {
               <NavLink activeClassName="nav-link-active" to="/store">STORE</NavLink>
             </div>
 
+            <div className="right-side">
+              <div className="right-nav-links">
+                <div className="nav-icons">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+
+                <div className="nav-icons">
+                  <i class="fab fa-instagram"></i>
+                </div>
+
+                <div className="nav-icons">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </div>
+            </div>
+
             <div className="nav-link-wrapper">
               <NavLink activeClassName="nav-link-active" to="/about">ABOUT</NavLink>
             </div>
 
             <div className="nav-link-wrapper">
               <NavLink activeClassName="nav-link-active" to="/contact">CONTACT</NavLink>
-            </div>
-
-            <div className="nav-link-wrapper">
-              <NavLink activeClassName="nav-link-active" to="/blog">BLOG</NavLink>
             </div>
           </div>
         </div>

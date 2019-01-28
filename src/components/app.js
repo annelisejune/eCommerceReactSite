@@ -20,17 +20,15 @@ export default class App extends Component {
         <Router>
           <div>
             <Navigation />
-
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/store" component={Store} />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-            </Switch>
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/store" component={Store} />
+                <Route path="/about" component={About} />
+                <Route path="/contact" component={Contact} />
+              </Switch>
+            <Footer />
           </div>
         </Router> 
-
-        <Footer />
       </div>
     );
   }
