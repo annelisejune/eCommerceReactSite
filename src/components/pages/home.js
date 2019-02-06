@@ -1,10 +1,13 @@
 import React from "react";
+import Typing from "react-typing-animation";
 
 export default function() {
   return (
     <div className="page-content">
       <div className="page-header">
-        <h1>tHis is ecommeRce</h1>
+        <Typing speed={75}>
+          <span><h1>tHis is ecommeRce</h1></span>
+        </Typing>
       </div>
 
       <div className="company-pic-and-sample-products">
