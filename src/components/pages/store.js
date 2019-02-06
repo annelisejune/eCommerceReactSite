@@ -19,7 +19,7 @@ export default function() {
         </div>
         
         <div className="store-sample-products">
-          <h1>Mischief Managed</h1>
+          <h1>Mischief</h1>
           <button to="/">PURCHASE</button>
         </div>
 
